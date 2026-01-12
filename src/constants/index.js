@@ -293,7 +293,7 @@ const projects = [
     {
     name: "Delivery App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A modern delivery application that enables users to browse items, place orders seamlessly, and track deliveries in real time for a smooth and reliable experience.",
     tags: [
       {
         name: "nodejs",
