@@ -8,7 +8,7 @@ const Tech = () => {
 
   useEffect(() => {
     // Check if the screen is mobile-sized
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
     setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {
@@ -24,8 +24,8 @@ const Tech = () => {
       {technologies.map((technology) => (
         <div className='w-28 h-28' key={technology.name}>
           {/* If mobile OR too many icons, use 2D image to prevent blank screen */}
-          {isMobile || technologies.length > 10 ? (
-            <div className='w-full h-full rounded-full bg-tertiary flex justify-center items-center border-4 border-[#915EFF] shadow-card'>
+          {isMobile  ? (
+            <div className='w-full h-full rounded-full bg-white flex justify-center items-center border-4 border-[#915EFF] shadow-card'>
                <img 
                  src={technology.icon} 
                  alt={technology.name} 
