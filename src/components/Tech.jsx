@@ -25,7 +25,7 @@ const Tech = () => {
         <div className='w-28 h-28' key={technology.name}>
           {/* If mobile OR too many icons, use 2D image to prevent blank screen */}
           {isMobile  ? (
-            <div className='w-full h-full rounded-full bg-white flex justify-center items-center border-4 border-[#915EFF] shadow-card'>
+            <div className='w-full h-full rounded-full bg-sky-200 flex justify-center items-center border-4 border-[#915EFF] shadow-card'>
                <img 
                  src={technology.icon} 
                  alt={technology.name} 
