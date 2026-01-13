@@ -120,6 +120,7 @@ const technologies = [
     name: "docker",
     icon: shopify,
   },
+  
 
 ];
 
