@@ -40,8 +40,8 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop='always'
-      dpr={[1, 1.1]}
+      frameloop='demand' // ONLY renders when you move the ball, saving memory
+      dpr={[1, 1.2]}     // Limits the resolution on high-end mobile screens
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
