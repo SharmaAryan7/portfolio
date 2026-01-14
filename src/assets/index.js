@@ -37,6 +37,7 @@ import prescripto from '../assets/prescripto.png'
 import tourapp from '../assets/tourapp.png'
 import courseapp from '../assets/coursesapp.png'
 import delivery from '../assets/delivey.png'
+import hero2d from '../assets/hero2d.jpeg'
 
 export {
   logo,
@@ -52,6 +53,7 @@ export {
   web,
   github,
   menu,
+  hero2d,
   close,
   css,
   docker,
