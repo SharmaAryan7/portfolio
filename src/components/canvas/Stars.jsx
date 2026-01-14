@@ -35,7 +35,7 @@ const StarsCanvas = () => {
           <Stars />
         </Suspense>
 
-        <Preload all />
+        <Preload  />
       </Canvas>
     </div>
   );
